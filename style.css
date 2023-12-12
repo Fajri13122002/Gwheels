@@ -75,7 +75,7 @@ body::-webkit-scrollbar-track {
 .navbar .nav-item:hover {
   border-bottom: 2px solid var(--orange);
 }
-
+/* 780 925
 /* Hero section */
 .hero {
   position: relative;
@@ -314,4 +314,60 @@ body::-webkit-scrollbar-track {
 /* Footer */
 .footer-content {
   text-align: center;
+}
+
+/* Responds */
+.responds {
+  width: 100vw;
+  height: 100vh;
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: var(--dark);
+  padding: 2rem;
+}
+
+.responds h1 {
+  font-family: "inter", sans-serif;
+  font-size: 3rem;
+  font-style: italic;
+  text-align: center;
+}
+
+.responds button {
+  background: var(--orange);
+  color: var(--light);
+  padding: 0.5rem 3rem;
+  border: none;
+  border-radius: 0.5rem;
+  font-weight: bold;
+  margin-top: 2rem;
+}
+
+.responds button:hover {
+  box-shadow: 0 0 1rem var(--orange);
+}
+
+/* Back */
+.back {
+  position: fixed;
+  right: 10%;
+  bottom: 10%;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  background: var(--orange);
+  color: white;
+  z-index: 082123615939;
+}
+
+.back:hover {
+  cursor: pointer;
+  box-shadow: 0 0 1rem var(--orange);
 }
